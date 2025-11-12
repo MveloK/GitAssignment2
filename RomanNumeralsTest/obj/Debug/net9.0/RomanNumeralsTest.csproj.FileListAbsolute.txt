@@ -100,3 +100,4 @@ C:\Users\User\source\repos\GitAssign2\RomanNumeralsTest\obj\Debug\net9.0\refint\
 C:\Users\User\source\repos\GitAssign2\RomanNumeralsTest\obj\Debug\net9.0\RomanNumeralsTest.pdb
 C:\Users\User\source\repos\GitAssign2\RomanNumeralsTest\obj\Debug\net9.0\RomanNumeralsTest.genruntimeconfig.cache
 C:\Users\User\source\repos\GitAssign2\RomanNumeralsTest\obj\Debug\net9.0\ref\RomanNumeralsTest.dll
+C:\Users\User\source\repos\GitAssign2\RomanNumeralsTest\obj\Debug\net9.0\RomanNumeralsTest.sourcelink.json

@@ -9,9 +9,9 @@ namespace RomanNumeralsTest
         public void Roman_Numeral_1()
         {
            
-            var result = RomanNumerals.RomanNumerals.Converter;
+            var result = RomanNumerals.RomanNumerals.Converter(1);
 
-            Assert.Equal("I", result.ToString());
+            Assert.Equal("I", result);
         }
     }
 }

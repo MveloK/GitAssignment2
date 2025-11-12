@@ -2,9 +2,16 @@
 {
     public class RomanNumerals
     {
-        public static int Converter
+        public static string Converter(int num)
         {
-            get { return 1 * 2; }
+            if (num >= 1) {
+                return "I";
+
+            }
+            else
+            {
+                throw new ArgumentException("False");
+            }
         }
     }
 }
