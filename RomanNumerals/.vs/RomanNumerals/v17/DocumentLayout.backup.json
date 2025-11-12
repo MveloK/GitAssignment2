@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\GitAssign2\\RomanNumerals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF9B6F9-4049-4293-B7AB-B2FC4EF4FA86}|..\\RomanNumeralsTest\\RomanNumeralsTest.csproj|c:\\users\\user\\source\\repos\\gitassign2\\romannumeralstest\\romannumeralstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5579D1-8D7D-4C29-B4D9-FAA7D8FA6194}|RomanNumerals.csproj|c:\\users\\user\\source\\repos\\gitassign2\\romannumerals\\romannumerals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5579D1-8D7D-4C29-B4D9-FAA7D8FA6194}|RomanNumerals.csproj|solutionrelative:romannumerals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RomanNumeralsTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GitAssign2\\RomanNumeralsTest\\RomanNumeralsTest.cs",
+              "RelativeDocumentMoniker": "..\\RomanNumeralsTest\\RomanNumeralsTest.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssign2\\RomanNumeralsTest\\RomanNumeralsTest.cs",
+              "RelativeToolTip": "..\\RomanNumeralsTest\\RomanNumeralsTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:52:32.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RomanNumerals.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GitAssign2\\RomanNumerals\\RomanNumerals.cs",
+              "RelativeDocumentMoniker": "RomanNumerals.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GitAssign2\\RomanNumerals\\RomanNumerals.cs",
+              "RelativeToolTip": "RomanNumerals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:52:07.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

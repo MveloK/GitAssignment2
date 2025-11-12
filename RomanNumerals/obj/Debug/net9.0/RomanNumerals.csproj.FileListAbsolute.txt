@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\bin\Debug\net9.0\RomanNumerals.deps.json
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\bin\Debug\net9.0\RomanNumerals.dll
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\bin\Debug\net9.0\RomanNumerals.pdb
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.AssemblyInfo.cs
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.dll
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\refint\RomanNumerals.dll
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.pdb
+C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\ref\RomanNumerals.dll
