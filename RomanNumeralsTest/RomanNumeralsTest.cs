@@ -74,6 +74,14 @@ namespace RomanNumeralsTest
             Assert.Equal("X", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_Basic_Construction()
+        {
+            var result = RomanNumerals.RomanNumerals.Converter(8);
+
+            Assert.Equal("VIII", result);
+        }
+
 
     }
 }
