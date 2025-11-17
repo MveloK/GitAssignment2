@@ -41,5 +41,13 @@ namespace RomanNumeralsTest
             Assert.Equal("V", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_0()
+        {
+            var result = RomanNumerals.RomanNumerals.Converter(0);
+
+            Assert.Empty(result);
+        }
+
     }
 }
