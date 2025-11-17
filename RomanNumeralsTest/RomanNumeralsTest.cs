@@ -66,6 +66,14 @@ namespace RomanNumeralsTest
             Assert.Equal("IX", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_10()
+        {
+            var result = RomanNumerals.RomanNumerals.Converter(10);
+
+            Assert.Equal("NOT_X", result);
+        }
+
 
     }
 }
