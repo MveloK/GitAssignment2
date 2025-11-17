@@ -44,7 +44,7 @@ namespace RomanNumeralsTest
         [Fact]
         public void Roman_Numeral_0()
         {
-            Assert.Throws<ArgumentException>(() =>
+            Assert.Throws<ArgumentOutOfRangeException>(() =>
             RomanNumerals.RomanNumerals.Converter(0));
         }
 
@@ -99,13 +99,12 @@ namespace RomanNumeralsTest
         }
 
         [Fact]
-        public void Roman_Numeral_3000()
+        public void Roman_Numeral_3001_OutOfRange()
         {
-
-            var result = RomanNumerals.RomanNumerals.Converter(3001);
-
-            Assert.Equal("MMMI", result);
+            Assert.Throws<ArgumentOutOfRangeException>(() =>
+                RomanNumerals.RomanNumerals.Converter(3001));
         }
+
 
 
     }

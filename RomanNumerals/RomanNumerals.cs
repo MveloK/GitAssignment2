@@ -21,7 +21,10 @@
 
         public static string Converter(int num)
         {
-           
+            if (num == 0 || num >= 3001)
+            {
+                throw new ArgumentOutOfRangeException(nameof(num), "Out of range.");
+            }
 
             if (num == 4) return "IV";
             if (num == 9) return "IX";
@@ -49,10 +52,7 @@
                 ("I", 1)
             };
 
-            if (num <= 0 || num >= 3000)
-            {
-                throw new Exception("Out of range");
-            }
+            
 
             foreach (var item in valuesDesc)
             {
