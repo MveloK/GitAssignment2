@@ -90,6 +90,14 @@ namespace RomanNumeralsTest
             Assert.Equal("IV", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_Combining_Rules()
+        {
+            var result = RomanNumerals.RomanNumerals.Converter(1984);
+
+            Assert.Equal("MCMLXXXIV", result);
+        }
+
 
     }
 }
