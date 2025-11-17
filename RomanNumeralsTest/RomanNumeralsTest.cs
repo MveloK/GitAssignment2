@@ -27,7 +27,7 @@ namespace RomanNumeralsTest
         public void Roman_Numeral_3()
         {
 
-            var result = RomanNumerals.RomanNumerals.Converter(2);
+            var result = RomanNumerals.RomanNumerals.Converter(3);
 
             Assert.Equal("III", result);
         }
