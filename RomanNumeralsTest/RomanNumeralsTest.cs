@@ -44,10 +44,11 @@ namespace RomanNumeralsTest
         [Fact]
         public void Roman_Numeral_0()
         {
-            var result = RomanNumerals.RomanNumerals.Converter(0);
-
-            Assert.Empty(result);
+            Assert.Throws<ArgumentException>(() =>
+            RomanNumerals.RomanNumerals.Converter(0));
         }
+
+
 
     }
 }
