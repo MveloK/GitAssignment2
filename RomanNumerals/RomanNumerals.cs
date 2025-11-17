@@ -16,18 +16,30 @@
 };
         public static string Converter(int num)
         {
+            
+            if (num <= 0)
+                throw new ArgumentException("False");
+
             if (num == 4) return "IV";
             if (num == 9) return "IX";
 
             var roman = NumeralList.FirstOrDefault(n => n.Value == num);
+            if (roman != default)
+                return roman.Numeral;
 
-            if (roman == default)
-                throw new ArgumentException("False");
+            var result = "";
+            var valuesDesc = NumeralList.OrderByDescending(n => n.Value);
 
-            return roman.Numeral;
+            foreach (var item in valuesDesc)
+            {
+                while (num >= item.Value)
+                {
+                    result += item.Numeral;
+                    num -= item.Value;
+                }
+            }
 
-
-
+            return result;
         }
     }
 }
