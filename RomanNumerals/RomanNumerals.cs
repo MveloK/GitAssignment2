@@ -16,17 +16,17 @@
 };
         public static string Converter(int num)
         {
-           
-            if (num <= 0 || num >= NumeralList.Count)
-            {
+
+            var roman = NumeralList.FirstOrDefault(n => n.Value == num);
+
+            if (roman == default)
                 throw new ArgumentException("False");
-            }
 
-            return NumeralList[num].Numeral.ToString();
-        
+            return roman.Numeral;
 
 
 
-    }
+
+        }
     }
 }
