@@ -98,6 +98,15 @@ namespace RomanNumeralsTest
             Assert.Equal("MCMLXXXIV", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_3000()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(3001);
+
+            Assert.Equal("MMMI", result);
+        }
+
 
     }
 }

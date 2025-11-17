@@ -21,8 +21,7 @@
 
         public static string Converter(int num)
         {
-            if (num <= 0)
-                throw new ArgumentException("False");
+           
 
             if (num == 4) return "IV";
             if (num == 9) return "IX";
@@ -49,6 +48,11 @@
                 ("IV", 4),
                 ("I", 1)
             };
+
+            if (num <= 0 || num >= 3000)
+            {
+                throw new Exception("Out of range");
+            }
 
             foreach (var item in valuesDesc)
             {
