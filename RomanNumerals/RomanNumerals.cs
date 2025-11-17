@@ -16,6 +16,7 @@
 };
         public static string Converter(int num)
         {
+            if (num == 4) return "IV";
 
             var roman = NumeralList.FirstOrDefault(n => n.Value == num);
 
