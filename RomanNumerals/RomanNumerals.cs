@@ -17,7 +17,7 @@
         public static string Converter(int num)
         {
             if (num == 4) return "IV";
-
+            if (num == 9) return "IX";
 
             var roman = NumeralList.FirstOrDefault(n => n.Value == num);
 
