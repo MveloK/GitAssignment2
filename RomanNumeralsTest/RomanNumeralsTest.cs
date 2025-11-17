@@ -48,6 +48,14 @@ namespace RomanNumeralsTest
             RomanNumerals.RomanNumerals.Converter(0));
         }
 
+        [Fact]
+        public void Roman_Numeral_4()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(4);
+
+            Assert.Equal("IV", result);
+        }
 
 
     }
