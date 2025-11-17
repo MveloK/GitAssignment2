@@ -32,5 +32,14 @@ namespace RomanNumeralsTest
             Assert.Equal("III", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_5()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(5);
+
+            Assert.Equal("V", result);
+        }
+
     }
 }

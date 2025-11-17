@@ -2,29 +2,31 @@
 {
     public class RomanNumerals
     {
+        private static readonly List<(string Numeral, int Value)> NumeralList = new List<(string Numeral, int Value)>
+{
+                            ("I", 1),
+                            ("II", 2), 
+                            ("III", 3), 
+                            ("V", 5),
+                            ("X", 10),
+                            ("L", 50),
+                            ("C", 100),
+                            ("D", 500),
+                            ("M", 1000)
+};
         public static string Converter(int num)
         {
-            if (num == 1)
-            {
-                return "I";
-            }
-            else if (num == 2)
-            {
-                return "II";
-            }
-            else if (num == 3)
-            {
-                return "III";
-            }
-            else
+           
+            if (num <= 0 || num >= NumeralList.Count)
             {
                 throw new ArgumentException("False");
             }
 
-            //Because using If else for all the numbers is time consuming I'll be switching over to a list or dictionary
+            return NumeralList[num].Numeral.ToString();
+        
 
 
 
-        }
+    }
     }
 }

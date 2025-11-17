@@ -9,4 +9,3 @@ C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumera
 C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\refint\RomanNumerals.dll
 C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.pdb
 C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\ref\RomanNumerals.dll
-C:\Users\User\source\repos\GitAssign2\RomanNumerals\obj\Debug\net9.0\RomanNumerals.sourcelink.json
