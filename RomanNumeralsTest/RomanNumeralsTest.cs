@@ -71,7 +71,7 @@ namespace RomanNumeralsTest
         {
             var result = RomanNumerals.RomanNumerals.Converter(10);
 
-            Assert.Equal("NOT_X", result);
+            Assert.Equal("X", result);
         }
 
 
