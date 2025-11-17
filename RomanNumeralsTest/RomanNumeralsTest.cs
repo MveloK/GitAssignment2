@@ -105,6 +105,14 @@ namespace RomanNumeralsTest
                 RomanNumerals.RomanNumerals.Converter(3001));
         }
 
+        [Fact]
+        public void Roman_Numeral_Order_Of_Magnitude()
+        {
+            var result = RomanNumerals.RomanNumerals.Converter(1900);
+
+            Assert.Equal("MCM", result);
+        }
+
 
 
     }
