@@ -84,10 +84,10 @@ namespace RomanNumeralsTest
         [Fact]
         public void Roman_Numeral_Repetition()
         {
-
             var result = RomanNumerals.RomanNumerals.Converter(4);
-            Assert.Throws<ArgumentException>(() =>
-            Assert.Equal("IIII", result));
+
+            Assert.NotEqual("IIII", result);
+            Assert.Equal("IV", result);
         }
 
 
