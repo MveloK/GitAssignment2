@@ -4,7 +4,7 @@
     {
         public static string Converter(int num)
         {
-            if (num >= 1) {
+            if (num >= 1 || num <=3) {
                 return "I";
 
             }
@@ -12,6 +12,9 @@
             {
                 throw new ArgumentException("False");
             }
+
+            
+           
         }
     }
 }

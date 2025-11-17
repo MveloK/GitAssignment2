@@ -13,5 +13,24 @@ namespace RomanNumeralsTest
 
             Assert.Equal("I", result);
         }
+
+        [Fact]
+        public void Roman_Numeral_2()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(2);
+
+            Assert.Equal("II", result);
+        }
+
+        [Fact]
+        public void Roman_Numeral_3()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(2);
+
+            Assert.Equal("III", result);
+        }
+
     }
 }
