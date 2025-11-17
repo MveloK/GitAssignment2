@@ -57,6 +57,15 @@ namespace RomanNumeralsTest
             Assert.Equal("IV", result);
         }
 
+        [Fact]
+        public void Roman_Numeral_9()
+        {
+
+            var result = RomanNumerals.RomanNumerals.Converter(9);
+
+            Assert.Equal("IX", result);
+        }
+
 
     }
 }
